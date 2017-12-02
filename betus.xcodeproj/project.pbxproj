@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFEE2D181FD2EE8D002D7385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE2D171FD2EE8D002D7385 /* AppDelegate.swift */; };
+		FFEE2D1A1FD2EE8D002D7385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE2D191FD2EE8D002D7385 /* ViewController.swift */; };
+		FFEE2D1D1FD2EE8D002D7385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEE2D1B1FD2EE8D002D7385 /* Main.storyboard */; };
+		FFEE2D201FD2EE8D002D7385 /* betus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFEE2D1E1FD2EE8D002D7385 /* betus.xcdatamodeld */; };
+		FFEE2D221FD2EE8D002D7385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEE2D211FD2EE8D002D7385 /* Assets.xcassets */; };
+		FFEE2D251FD2EE8D002D7385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEE2D231FD2EE8D002D7385 /* LaunchScreen.storyboard */; };
+		FFEE2D301FD2EE8D002D7385 /* betusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE2D2F1FD2EE8D002D7385 /* betusTests.swift */; };
+		FFEE2D3B1FD2EE8D002D7385 /* betusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE2D3A1FD2EE8D002D7385 /* betusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFEE2D2C1FD2EE8D002D7385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEE2D0C1FD2EE8D002D7385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFEE2D131FD2EE8D002D7385;
+			remoteInfo = betus;
+		};
+		FFEE2D371FD2EE8D002D7385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEE2D0C1FD2EE8D002D7385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFEE2D131FD2EE8D002D7385;
+			remoteInfo = betus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFEE2D141FD2EE8D002D7385 /* betus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = betus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEE2D171FD2EE8D002D7385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFEE2D191FD2EE8D002D7385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFEE2D1C1FD2EE8D002D7385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFEE2D1F1FD2EE8D002D7385 /* betus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = betus.xcdatamodel; sourceTree = "<group>"; };
+		FFEE2D211FD2EE8D002D7385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFEE2D241FD2EE8D002D7385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFEE2D261FD2EE8D002D7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEE2D2B1FD2EE8D002D7385 /* betusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEE2D2F1FD2EE8D002D7385 /* betusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betusTests.swift; sourceTree = "<group>"; };
+		FFEE2D311FD2EE8D002D7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEE2D361FD2EE8D002D7385 /* betusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEE2D3A1FD2EE8D002D7385 /* betusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betusUITests.swift; sourceTree = "<group>"; };
+		FFEE2D3C1FD2EE8D002D7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFEE2D111FD2EE8D002D7385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEE2D281FD2EE8D002D7385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEE2D331FD2EE8D002D7385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFEE2D0B1FD2EE8D002D7385 = {
+			isa = PBXGroup;
+			children = (
+				FFEE2D161FD2EE8D002D7385 /* betus */,
+				FFEE2D2E1FD2EE8D002D7385 /* betusTests */,
+				FFEE2D391FD2EE8D002D7385 /* betusUITests */,
+				FFEE2D151FD2EE8D002D7385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFEE2D151FD2EE8D002D7385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE2D141FD2EE8D002D7385 /* betus.app */,
+				FFEE2D2B1FD2EE8D002D7385 /* betusTests.xctest */,
+				FFEE2D361FD2EE8D002D7385 /* betusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFEE2D161FD2EE8D002D7385 /* betus */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE2D171FD2EE8D002D7385 /* AppDelegate.swift */,
+				FFEE2D191FD2EE8D002D7385 /* ViewController.swift */,
+				FFEE2D1B1FD2EE8D002D7385 /* Main.storyboard */,
+				FFEE2D211FD2EE8D002D7385 /* Assets.xcassets */,
+				FFEE2D231FD2EE8D002D7385 /* LaunchScreen.storyboard */,
+				FFEE2D261FD2EE8D002D7385 /* Info.plist */,
+				FFEE2D1E1FD2EE8D002D7385 /* betus.xcdatamodeld */,
+			);
+			path = betus;
+			sourceTree = "<group>";
+		};
+		FFEE2D2E1FD2EE8D002D7385 /* betusTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE2D2F1FD2EE8D002D7385 /* betusTests.swift */,
+				FFEE2D311FD2EE8D002D7385 /* Info.plist */,
+			);
+			path = betusTests;
+			sourceTree = "<group>";
+		};
+		FFEE2D391FD2EE8D002D7385 /* betusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE2D3A1FD2EE8D002D7385 /* betusUITests.swift */,
+				FFEE2D3C1FD2EE8D002D7385 /* Info.plist */,
+			);
+			path = betusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFEE2D131FD2EE8D002D7385 /* betus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFEE2D3F1FD2EE8D002D7385 /* Build configuration list for PBXNativeTarget "betus" */;
+			buildPhases = (
+				FFEE2D101FD2EE8D002D7385 /* Sources */,
+				FFEE2D111FD2EE8D002D7385 /* Frameworks */,
+				FFEE2D121FD2EE8D002D7385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = betus;
+			productName = betus;
+			productReference = FFEE2D141FD2EE8D002D7385 /* betus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFEE2D2A1FD2EE8D002D7385 /* betusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFEE2D421FD2EE8D002D7385 /* Build configuration list for PBXNativeTarget "betusTests" */;
+			buildPhases = (
+				FFEE2D271FD2EE8D002D7385 /* Sources */,
+				FFEE2D281FD2EE8D002D7385 /* Frameworks */,
+				FFEE2D291FD2EE8D002D7385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFEE2D2D1FD2EE8D002D7385 /* PBXTargetDependency */,
+			);
+			name = betusTests;
+			productName = betusTests;
+			productReference = FFEE2D2B1FD2EE8D002D7385 /* betusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFEE2D351FD2EE8D002D7385 /* betusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFEE2D451FD2EE8D002D7385 /* Build configuration list for PBXNativeTarget "betusUITests" */;
+			buildPhases = (
+				FFEE2D321FD2EE8D002D7385 /* Sources */,
+				FFEE2D331FD2EE8D002D7385 /* Frameworks */,
+				FFEE2D341FD2EE8D002D7385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFEE2D381FD2EE8D002D7385 /* PBXTargetDependency */,
+			);
+			name = betusUITests;
+			productName = betusUITests;
+			productReference = FFEE2D361FD2EE8D002D7385 /* betusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFEE2D0C1FD2EE8D002D7385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "amr Elshendidy";
+				TargetAttributes = {
+					FFEE2D131FD2EE8D002D7385 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FFEE2D2A1FD2EE8D002D7385 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFEE2D131FD2EE8D002D7385;
+					};
+					FFEE2D351FD2EE8D002D7385 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFEE2D131FD2EE8D002D7385;
+					};
+				};
+			};
+			buildConfigurationList = FFEE2D0F1FD2EE8D002D7385 /* Build configuration list for PBXProject "betus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFEE2D0B1FD2EE8D002D7385;
+			productRefGroup = FFEE2D151FD2EE8D002D7385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFEE2D131FD2EE8D002D7385 /* betus */,
+				FFEE2D2A1FD2EE8D002D7385 /* betusTests */,
+				FFEE2D351FD2EE8D002D7385 /* betusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFEE2D121FD2EE8D002D7385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEE2D251FD2EE8D002D7385 /* LaunchScreen.storyboard in Resources */,
+				FFEE2D221FD2EE8D002D7385 /* Assets.xcassets in Resources */,
+				FFEE2D1D1FD2EE8D002D7385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEE2D291FD2EE8D002D7385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEE2D341FD2EE8D002D7385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFEE2D101FD2EE8D002D7385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEE2D201FD2EE8D002D7385 /* betus.xcdatamodeld in Sources */,
+				FFEE2D1A1FD2EE8D002D7385 /* ViewController.swift in Sources */,
+				FFEE2D181FD2EE8D002D7385 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEE2D271FD2EE8D002D7385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEE2D301FD2EE8D002D7385 /* betusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEE2D321FD2EE8D002D7385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEE2D3B1FD2EE8D002D7385 /* betusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFEE2D2D1FD2EE8D002D7385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFEE2D131FD2EE8D002D7385 /* betus */;
+			targetProxy = FFEE2D2C1FD2EE8D002D7385 /* PBXContainerItemProxy */;
+		};
+		FFEE2D381FD2EE8D002D7385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFEE2D131FD2EE8D002D7385 /* betus */;
+			targetProxy = FFEE2D371FD2EE8D002D7385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFEE2D1B1FD2EE8D002D7385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFEE2D1C1FD2EE8D002D7385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFEE2D231FD2EE8D002D7385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFEE2D241FD2EE8D002D7385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFEE2D3D1FD2EE8D002D7385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFEE2D3E1FD2EE8D002D7385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFEE2D401FD2EE8D002D7385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93M3757MEL;
+				INFOPLIST_FILE = betus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.betus.ios.betus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFEE2D411FD2EE8D002D7385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93M3757MEL;
+				INFOPLIST_FILE = betus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.betus.ios.betus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFEE2D431FD2EE8D002D7385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93M3757MEL;
+				INFOPLIST_FILE = betusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.betus.ios.betusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/betus.app/betus";
+			};
+			name = Debug;
+		};
+		FFEE2D441FD2EE8D002D7385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93M3757MEL;
+				INFOPLIST_FILE = betusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.betus.ios.betusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/betus.app/betus";
+			};
+			name = Release;
+		};
+		FFEE2D461FD2EE8D002D7385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93M3757MEL;
+				INFOPLIST_FILE = betusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.betus.ios.betusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = betus;
+			};
+			name = Debug;
+		};
+		FFEE2D471FD2EE8D002D7385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93M3757MEL;
+				INFOPLIST_FILE = betusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.betus.ios.betusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = betus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFEE2D0F1FD2EE8D002D7385 /* Build configuration list for PBXProject "betus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEE2D3D1FD2EE8D002D7385 /* Debug */,
+				FFEE2D3E1FD2EE8D002D7385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFEE2D3F1FD2EE8D002D7385 /* Build configuration list for PBXNativeTarget "betus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEE2D401FD2EE8D002D7385 /* Debug */,
+				FFEE2D411FD2EE8D002D7385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFEE2D421FD2EE8D002D7385 /* Build configuration list for PBXNativeTarget "betusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEE2D431FD2EE8D002D7385 /* Debug */,
+				FFEE2D441FD2EE8D002D7385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFEE2D451FD2EE8D002D7385 /* Build configuration list for PBXNativeTarget "betusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEE2D461FD2EE8D002D7385 /* Debug */,
+				FFEE2D471FD2EE8D002D7385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFEE2D1E1FD2EE8D002D7385 /* betus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFEE2D1F1FD2EE8D002D7385 /* betus.xcdatamodel */,
+			);
+			currentVersion = FFEE2D1F1FD2EE8D002D7385 /* betus.xcdatamodel */;
+			path = betus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFEE2D0C1FD2EE8D002D7385 /* Project object */;
+}
